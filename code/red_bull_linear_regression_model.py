@@ -35,7 +35,6 @@ from sklearn.preprocessing import PolynomialFeatures
 
 # Import csv
 data = pd.read_csv("final_data.csv")
-
 data.set_index('Team', inplace=True)
 data = data.loc['Red Bull Racing']
 
